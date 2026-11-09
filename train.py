@@ -358,7 +358,7 @@ def main():
     elif args.data == "PEMS03":
         args.data = "data//" + args.data
         args.num_nodes = 358
-        args.epochs = 300
+        args.epochs = 80
         args.es_patience = 100
 
     elif args.data == "PEMS04":
